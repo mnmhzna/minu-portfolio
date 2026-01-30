@@ -1,0 +1,299 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Minu Muhsina | Remote Sensing • GIS • Time Series</title>
+  <meta name="description" content="Portfolio of Minu Muhsina — Python data analysis, remote sensing, GIS, time series, and geospatial workflows." />
+  <meta name="theme-color" content="#0b1020" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Minu Muhsina | Portfolio" />
+  <meta property="og:description" content="Remote sensing • GIS • Time series analysis • Python" />
+  <meta property="og:type" content="website" />
+
+  <link rel="stylesheet" href="assets/styles.css" />
+</head>
+
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+
+  <header class="topbar">
+    <div class="wrap topbar__inner">
+      <div class="brand">
+        <span class="brand__dot" aria-hidden="true"></span>
+        <span class="brand__text">Minu Muhsina</span>
+      </div>
+
+      <nav class="nav" aria-label="Primary">
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#about">About</a>
+        <a href="#contact" class="btn btn--ghost">Contact</a>
+        <button id="themeToggle" class="btn btn--ghost btn--icon" type="button" aria-label="Toggle theme">
+          <span aria-hidden="true">◐</span>
+        </button>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- HERO -->
+    <section class="hero">
+      <div class="wrap hero__inner">
+        <div class="hero__content">
+          <p class="kicker">M.Sc. Geodesy & Geoinformatics</p>
+          <h1>Remote sensing & geospatial data analysis in Python.</h1>
+          <p class="lead">
+            I build reproducible pipelines for time series, spectral analysis, GIS workflows, and 3D/point-cloud processing.
+            Currently targeting a student assistant data analyst role at mundialis.
+          </p>
+
+          <div class="hero__cta">
+            <!-- Replace links with your real URLs -->
+            <a class="btn" href="#projects">View projects</a>
+            <a class="btn btn--ghost" href="assets/Minu_Muhsina_CV.pdf" target="_blank" rel="noopener">CV (PDF)</a>
+            <a class="btn btn--ghost" href="https://github.com/YOUR_GITHUB" target="_blank" rel="noopener">GitHub</a>
+            <a class="btn btn--ghost" href="https://www.linkedin.com/in/YOUR_LINKEDIN" target="_blank" rel="noopener">LinkedIn</a>
+          </div>
+
+          <div class="chips" aria-label="Key focus areas">
+            <span class="chip">Time series</span>
+            <span class="chip">Spectral analysis (FFT)</span>
+            <span class="chip">Remote sensing</span>
+            <span class="chip">QGIS • PostGIS</span>
+            <span class="chip">Point clouds • SLAM</span>
+            <span class="chip">ML (scikit-learn)</span>
+          </div>
+        </div>
+
+        <div class="hero__media" role="img" aria-label="Geospatial visualization">
+          <!-- Optional hero image; replace with your own -->
+          <img src="assets/img/hero.jpg" alt="Geospatial visualization preview" loading="lazy" />
+        </div>
+      </div>
+    </section>
+
+    <!-- QUICK FIT -->
+    <section class="section">
+      <div class="wrap">
+        <h2>What I can contribute (mundialis-aligned)</h2>
+        <div class="grid grid--3">
+          <div class="card">
+            <h3>Time series & long-term monitoring</h3>
+            <p>Trend/seasonality separation, spectral methods, robust diagnostics, and clear plots.</p>
+          </div>
+          <div class="card">
+            <h3>Remote sensing data workflows</h3>
+            <p>From raw geodata to interpretable outputs, with reproducible Python pipelines.</p>
+          </div>
+          <div class="card">
+            <h3>GIS + data engineering</h3>
+            <p>PostGIS spatial queries, bbox-driven web maps, and open-source tooling (QGIS-ready).</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="section section--tint">
+      <div class="wrap">
+        <div class="section__head">
+          <h2>Selected projects</h2>
+          <p class="muted">Each card includes: problem → approach → outcome. Replace placeholders with your exact numbers and links.</p>
+        </div>
+
+        <div class="grid grid--2">
+          <!-- Project 1 -->
+          <article class="card card--project">
+            <div class="card__media">
+              <img src="assets/img/grace.png" alt="GRACE/EWH trend plot" loading="lazy" />
+            </div>
+            <div class="card__body">
+              <h3>GRACE / EWH time series analysis</h3>
+              <p class="muted">Python • decomposition • detrending • FFT/Fourier</p>
+
+              <ul class="bullets">
+                <li><strong>Problem:</strong> quantify long-term mass-change signals and periodic components.</li>
+                <li><strong>Approach:</strong> cleaned series, removed seasonality, computed trend slope, analyzed dominant frequencies.</li>
+                <li><strong>Outcome:</strong> add your key results (e.g., <em>trend slope (Gt/yr)</em>, dominant periods, plots).</li>
+              </ul>
+
+              <div class="links">
+                <a href="#" target="_blank" rel="noopener">Report (PDF)</a>
+                <a href="#" target="_blank" rel="noopener">Code</a>
+                <a href="#" target="_blank" rel="noopener">Slides</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 2 -->
+          <article class="card card--project">
+            <div class="card__media">
+              <img src="assets/img/spectrum.png" alt="Power spectrum / periodogram plot" loading="lazy" />
+            </div>
+            <div class="card__body">
+              <h3>Time series spectral analysis (TLS displacement)</h3>
+              <p class="muted">Python • autocorrelation • power spectra • FFT/periodograms</p>
+
+              <ul class="bullets">
+                <li><strong>Problem:</strong> identify cyclical components in displacement of wind-turbine components.</li>
+                <li><strong>Approach:</strong> autocovariance/autocorrelation + spectral density analysis.</li>
+                <li><strong>Outcome:</strong> add dominant frequencies/periods and stability notes (+ figure).</li>
+              </ul>
+
+              <div class="links">
+                <a href="#" target="_blank" rel="noopener">Report (PDF)</a>
+                <a href="#" target="_blank" rel="noopener">Notebook</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 3 -->
+          <article class="card card--project">
+            <div class="card__media">
+              <img src="assets/img/slam.png" alt="SLAM point cloud map preview" loading="lazy" />
+            </div>
+            <div class="card__body">
+              <h3>KISS-SLAM mapping + point cloud evaluation</h3>
+              <p class="muted">ROS • SLAM • ICP • CloudCompare • M3C2</p>
+
+              <ul class="bullets">
+                <li><strong>Problem:</strong> build and assess a 3D map from sequential scans (LiDAR-style workflow).</li>
+                <li><strong>Approach:</strong> tuned loop closure + ICP registration; evaluated map density/consistency.</li>
+                <li><strong>Outcome:</strong> add runtime + scale metrics (e.g., scans processed, fps, ICP RMSE, points).</li>
+              </ul>
+
+              <div class="links">
+                <a href="#" target="_blank" rel="noopener">Slides</a>
+                <a href="#" target="_blank" rel="noopener">Methods notes</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 4 -->
+          <article class="card card--project">
+            <div class="card__media">
+              <img src="assets/img/webgis.png" alt="WebGIS map screenshot" loading="lazy" />
+            </div>
+            <div class="card__body">
+              <h3>WebGIS + PostGIS dynamic bbox queries</h3>
+              <p class="muted">HTML/JS • PHP • PostGIS • AJAX • (Leaflet/OpenLayers)</p>
+
+              <ul class="bullets">
+                <li><strong>Problem:</strong> serve only features in the current map view for responsive interaction.</li>
+                <li><strong>Approach:</strong> bbox-driven SQL + AJAX; popups for feature info; layer toggles + metadata.</li>
+                <li><strong>Outcome:</strong> add dataset size + typical query time (ms) + deployment note.</li>
+              </ul>
+
+              <div class="links">
+                <a href="#" target="_blank" rel="noopener">Live demo</a>
+                <a href="#" target="_blank" rel="noopener">Repo</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Optional: GNSS / PPP -->
+          <article class="card card--project">
+            <div class="card__media">
+              <img src="assets/img/ppp.png" alt="PPP N/E/U time series" loading="lazy" />
+            </div>
+            <div class="card__body">
+              <h3>PPP kinematic evaluation (N/E/U)</h3>
+              <p class="muted">GNSS • kinematic time series • RMS statistics</p>
+
+              <ul class="bullets">
+                <li><strong>Problem:</strong> summarize stability and quality of kinematic PPP solutions.</li>
+                <li><strong>Approach:</strong> time series inspection + RMS/summary statistics.</li>
+                <li><strong>Outcome:</strong> add RMS values (N/E/U) + key interpretation (e.g., multipath periods).</li>
+              </ul>
+
+              <div class="links">
+                <a href="#" target="_blank" rel="noopener">Report (PDF)</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Optional: ML -->
+          <article class="card card--project">
+            <div class="card__media card__media--placeholder">
+              <div class="placeholder" aria-hidden="true">ML</div>
+            </div>
+            <div class="card__body">
+              <h3>Machine learning on geospatial data</h3>
+              <p class="muted">scikit-learn • regression/classification • cross-validation</p>
+
+              <ul class="bullets">
+                <li><strong>Problem:</strong> build and evaluate predictive models on geodetic/geospatial datasets.</li>
+                <li><strong>Approach:</strong> training pipeline + metrics + CV; error analysis.</li>
+                <li><strong>Outcome:</strong> add model type(s) + metric(s) (e.g., accuracy/F1/RMSE) + data size.</li>
+              </ul>
+
+              <div class="links">
+                <a href="#" target="_blank" rel="noopener">Notebook</a>
+                <a href="#" target="_blank" rel="noopener">Summary</a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="section">
+      <div class="wrap">
+        <h2>Skills</h2>
+        <div class="grid grid--3">
+          <div class="card">
+            <h3>Python</h3>
+            <p>NumPy • pandas • matplotlib • SciPy-style workflows • scikit-learn</p>
+          </div>
+          <div class="card">
+            <h3>GIS / Databases</h3>
+            <p>QGIS • PostGIS • spatial SQL • bbox queries • web mapping</p>
+          </div>
+          <div class="card">
+            <h3>3D / Remote sensing</h3>
+            <p>Point clouds • SLAM • ICP • CloudCompare (M3C2) • GRACE/EWH concepts</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section section--tint">
+      <div class="wrap">
+        <h2>About</h2>
+        <p>
+          I’m focused on practical geodata analytics: building pipelines, validating results, and documenting decisions.
+          I enjoy projects where I can combine remote sensing signals with GIS and time-series methods.
+        </p>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section">
+      <div class="wrap">
+        <h2>Contact</h2>
+        <div class="card">
+          <p class="muted">Replace these with your real contact details.</p>
+          <ul class="contact">
+            <li><strong>Email:</strong> <a href="mailto:YOUR_EMAIL">YOUR_EMAIL</a></li>
+            <li><strong>Location:</strong> Hannover, Germany</li>
+            <li><strong>GitHub:</strong> <a href="https://github.com/YOUR_GITHUB" target="_blank" rel="noopener">github.com/YOUR_GITHUB</a></li>
+            <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/YOUR_LINKEDIN" target="_blank" rel="noopener">linkedin.com/in/YOUR_LINKEDIN</a></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="wrap footer__inner">
+      <small>© <span id="year"></span> Minu Muhsina • Built with HTML/CSS • GitHub Pages-ready</small>
+    </div>
+  </footer>
+
+  <script src="assets/script.js"></script>
+</body>
+</html>
